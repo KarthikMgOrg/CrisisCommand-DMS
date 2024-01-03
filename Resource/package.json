@@ -1,0 +1,49 @@
+{
+  "name": "resource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarthikMgOrg/CrisisCommand-DMS.git"
+  },
+  "author": "karthikeyan mg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarthikMgOrg/CrisisCommand-DMS/issues"
+  },
+  "homepage": "https://github.com/KarthikMgOrg/CrisisCommand-DMS#readme",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.477.0",
+    "amqplib": "^0.10.3",
+    "aws-sdk": "^2.1509.0",
+    "axios": "^1.6.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-sessions": "^1.0.1",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.3.2",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1",
+    "passport": "^0.5.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "promisify": "^0.0.3",
+    "redis": "^4.6.11",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "validator": "^13.11.0"
+  }
+}

@@ -1,0 +1,24 @@
+User Model:
+
+Attributes: username, email, password (hashed), role (e.g., administrator, volunteer, donor), location, contact information, etc.
+Relationships: Users can be associated with incidents they report, volunteer for, or donate to.
+Incident Model:
+
+Attributes: title, description, location, date, status (e.g., open, closed), reportedBy (reference to User), etc.
+Relationships: Incidents can be associated with the user who reported them and volunteers who are assigned to handle them.
+Volunteer Model:
+
+Attributes: user (reference to User), incident (reference to Incident), status (e.g., assigned, in-progress, completed), skills, availability, etc.
+Relationships: Volunteers are associated with specific incidents and can have relationships with multiple incidents.
+Donation Model:
+
+Attributes: user (reference to User), amount, date, notes, etc.
+Relationships: Donations are associated with the user who made them and can be linked to specific incidents or be general donations.
+Resource Model:
+
+Attributes: name, type (e.g., food, medical supplies, shelter), quantity, location, status (e.g., available, distributed), etc.
+Relationships: Resources can be associated with incidents, indicating which incidents they are allocated to.
+Comment Model:
+
+Attributes: user (reference to User), incident (reference to Incident), text, timestamp, etc.
+Relationships: Comments can be associated with both users and incidents, allowing users to leave comments on incidents.

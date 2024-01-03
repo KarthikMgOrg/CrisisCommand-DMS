@@ -1,0 +1,19 @@
+{
+  "name": "volunteer",
+  "version": "1.0.0",
+  "description": "Volunteer Model:",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarthikMgOrg/CrisisCommand-DMS.git"
+  },
+  "author": "karthikeyan mg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarthikMgOrg/CrisisCommand-DMS/issues"
+  },
+  "homepage": "https://github.com/KarthikMgOrg/CrisisCommand-DMS#readme"
+}
